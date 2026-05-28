@@ -3,7 +3,7 @@ A tool for converting an ABA framework to a SETAF.
 
 ## 1 Installation
 
-Requires the rust toolchain (c.f. https://www.rust-lang.org and https://rustup.rs). Run 'cargo build –release' to build. 
+Requires the rust toolchain (c.f. https://www.rust-lang.org and https://rustup.rs). Run 'cargo build --release' to build. 
 
 ## 2 Usage 
 
