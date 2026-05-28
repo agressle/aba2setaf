@@ -1,0 +1,14 @@
+[package]
+name = "aba2setaf"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+tokio = {version = "1.52.3", features = ["fs", "io-util", "macros", "rt-multi-thread", "signal", "sync"] }
+clap = { version = "4.6.1", features = ["derive"] }
+debug_print = "1.0.0"
+bitvec = "1.0.1"
+
+[dev-dependencies]
+clingo = { version = "0.8", features = ["static-linking"] }
+test_each_file = "0.3.7"
